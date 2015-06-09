@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bravissimo Pizza</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/jquery.bxslider.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'></head>
+
+<body>
+  <!-- START OF HEADER -->
+  <div class="container-narrow">
+    <div class="logo">
+      <a href="../index.html">
+        <img src="assets/Logo.png"></a>
+    </div>
+    <div class="navigation">
+      <div class="navigation-wrapper">
+        <ul class="nav nav-pills pull-left">
+          <li>
+            <a href="../index.html">HOME</a>
+          </li>
+          <li>
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="location.html">LOCATION</a>
+          </li>
+        </ul>
+
+        <ul class="nav nav-pills pull-right">
+          <li>
+            <a href="menu.html">MENU</a>
+          </li>
+          <li>
+            <a href="catering.html">CATERING</a>
+          </li>
+          <li>
+            <a href="menu.html#">ORDER</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END OF HEADER -->
+
+    <!-- START OF CONTENT -->
+    <div class="content">
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-lg-12 first">
+            <h1 class="title">MENU</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="menuslider-wrapper col-lg-12">
+            <ul class="menuslider">
+              <li>
+                <img src="assets/pizza.jpg" class="responsive.img"/>
+              </li>
+              <li>
+                <img src="assets/pasta.jpg" class="responsive.img"/>
+              </li>
+              <li>
+                <img src="assets/salad.jpg" class="responsive.img"/>
+              </li>
+              <li>
+                <img src="assets/rigatone.jpg" class="responsive.img"/>
+              </li>
+              <li>
+                <img src="assets/dolci.jpg" class="responsive.img"/>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <ul class="tabs nav nav-pills nav-stacked" style="text-transform: uppercase;">
+              <li class="">
+                <a href="#sides" data-toggle="tab">Sides</a>
+              </li>
+              <li class="">
+                <a href="#soups" data-toggle="tab">Soups & Salads</a>
+              </li>
+              <li class="">
+                <a href="#pizza" data-toggle="tab">Pizza</a>
+              </li>
+              <li class="">
+                <a href="#pasta" data-toggle="tab">Pasta</a>
+              </li>
+              <li class="">
+                <a href="#sandwiches" data-toggle="tab">Sandwiches</a>
+              </li>
+              <li class="">
+                <a href="#burgers" data-toggle="tab">Burgers</a>
+              </li>
+              <li class="">
+                <a href="#dolci" data-toggle="tab">Dolci</a>
+              </li>
+              <li class="">
+                <a href="#drinks" data-toggle="tab">Beverages</a>
+              </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-8">
+          <div id="sides" class="tab_content" style="display: block;">
+            <h3>Sides</h3>
+            <div class="item">
+              <span class="entry">Onion Rings</span>
+              <span class="price">M 2.95 / L 3.95</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Belgian Fries</span>
+              <span class="price">M 3.95 / L 4.95</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Hot Wings & BBQ Wings</span>
+              <span class="price">25 pcs. 7.95 / 15 pcs. 10.95 / 10 pcs. 16.95</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Fresh Garlic Bread</span>
+              <span class="price">3.95</span>
+              <p>
+                Bravissimo's fresh dough, roasted garlic and romano cheese baked to order
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Homemade Meatballs</span>
+              <span class="price">2.50 each</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Eggplant Parmigiano</span>
+              <span class="price">S 6.75 / L 8.95</span>
+              <p>
+                Eggplant layered with pomodoro sauce and mozzarella. Grandma's style
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+          </div>
+          <!-- end tab_content -->
+
+          <div id="soups" class="tab_content" style="display: none;">
+            <h3>Soups & Salads</h3>
+            <div class="item">
+              <span class="entry">Insalata Della Casa (Vegetarian)</span>
+              <span class="price">6.95</span>
+              <p>
+                Organic mixed greens, marinated tomatoes, roasted peppers, tossed with special homemade basil vinaigrette
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Insalata Di Molto Bene</span>
+              <span class="price">8.25</span>
+              <p>
+                Grilled chicken, chopped mixed greens, feta cheese, calamata olives, tomatoes, with a special homemade honey balsamic vinaigrette
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Caesar Salad (Vegetarian)</span>
+              <span class="price">6.95</span>
+              <p>
+                Crisp romaine, special homemade Caesar dressing, and croutons
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Chicken Caesar Salad</span>
+              <span class="price">9.95</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Soup of the Day</span>
+              <span class="price">4.95</span>
+              <p>Always vegan, always creamless, full of love</p>
+              <div class="itemdivider"></div>
+            </div>
+          </div>
+          <!-- end tab_content -->
+
+          <div id="pizza" class="tab_content" style="display: none;">
+            <h3>Pizza</h3>
+            <div class="item">
+              <span class="entry">Cheese</span>
+              <span class="price">S 9.95 / M 12.75 / L 18.95</span>
+              <p>
+                Bravissimo's famous homemade sauce and the best mozzarella in town
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Pepperoni</span>
+              <span class="price">S 10.95 / M 14.95 / L 19.95</span>
+              <p>
+                Bravissimo's famous homemade sauce and the best pepperoni in town
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Fresca Vegan Delight</span>
+              <span class="price">S 9.95 / M 12.75 / L 17.95</span>
+              <p>
+                Bravissimo's famous homemade sauce, roasted eggplant, mushrooms, tomatoes, zucchini, and roasted peppers
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">BBQ Chicken Pizza</span>
+              <span class="price">S 10.95 / M 15.95 / L 23.95</span>
+              <p>
+                A Bravissimo's original, our secret BBQ sauce recipe, sweet spicy chicken, red onion, cilantro, and mozzarella
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Bada Bing</span>
+              <span class="price">S 10.95 / M 15.95 / L 23.95</span>
+              <p>
+                Bravissimo's famous homemade sauce, sausage, peppers, onions, and mozzarella
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Cheese Explosion</span>
+              <span class="price">S 10.95 / M 15.95 / L 23.95</span>
+              <p>
+                Sauteed farm-fresh spinach, ricotta, Bravissimo's house smoked mozzarella, aged pecorino romano, olive oil, and roasted garlic
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Bravissimo</span>
+              <span class="price">S 10.95 / M 15.95 / L 23.95</span>
+              <p>
+                Seared chicken, organic pesto, shaved and house smoked mozzarella, roasted peppers, and sweet red onions
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Meat Lovers' Delight</span>
+              <span class="price">S 10.95 / M 17.95 / L 26.95</span>
+              <p>
+                Pepperoni, Italian sausage, black forest ham with red sauce, and mozzarella
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+          </div>
+          <!-- end tab_content -->
+
+          <div id="pasta" class="tab_content" style="display: none;">
+            <h3>Pasta</h3>
+            <div class="item">
+              <span class="entry">Rigatone Della Farma</span>
+              <span class="price">9.95</span>
+              <p>
+                Pan-seared chicken, mushrooms in Bravissimo's original teriyaki cream sauce accented with toasted sesame seeds
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Spaghetti Pomodoro</span>
+              <span class="price">8.50</span>
+              <p>Timeless classic, soothing to the soul</p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Penne Arrabbiata</span>
+              <span class="price">8.95</span>
+              <p>Bravissimo's specially spiced homemade tomato sauce</p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Baked Penne</span>
+              <span class="price">9.95</span>
+              <p>
+                Smothered in sauce, covered in three cheeses and baked to perfection
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Spaghetti with Meatballs</span>
+              <span class="price">12.95</span>
+              <p>
+                Our grandmother "Mom-Mom's" secret recipe meatballs in marinara sauce
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Bravissimo's Homemade Lasagna</span>
+              <span class="price">9.95</span>
+              <p>Our grandmother's timeless homemade recipe</p>
+              <div class="itemdivider"></div>
+            </div>
+          </div>
+          <!-- end tab_content -->
+
+          <div id="sandwiches" class="tab_content" style="display: none;">
+            <h3>Sandwiches</h3>
+            <div class="item">
+              <span class="entry">Meatball Parmigiano</span>
+              <span class="price">9.95</span>
+              <p>
+                Super special homemade meatballs smothered in the house marinara sauce, melted mozzarella, and sprinkled with parmesan on a baguette
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Chicken Parmigiano</span>
+              <span class="price">9.95</span>
+              <p>
+                Roasted chicken breast, Italian seasoning, Bravissimo's homemade tomato sauce and fresh mozzarella on a baguette
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Chicken Pesto Sandwich</span>
+              <span class="price">8.95</span>
+              <p>
+                With homemade organic pesto grilled herbed breast of chicken, morning greens, tomatoes, and basil vinegarette on a baguette
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Chicken Cutlet Sandwich</span>
+              <span class="price">8.95</span>
+              <p>
+                Breaded and sautéed until golden, served on a baguette with lettuce, tomato, and a touch of mayo.
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+          </div>
+          <!-- end tab_content -->
+
+          <div id="burgers" class="tab_content" style="display: none;">
+            <h3>Burgers</h3>
+            <div class="item">
+              <span class="entry">Gourmet Burger</span>
+              <span class="price">9.75</span>
+              <p>Our classic ground beef patty topped with lettuce and tomato</p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Bravo Blue Burger</span>
+              <span class="price">11.75</span>
+              <p>
+                Fresh ground beef patty topped with bacon, caramelized onions, and blue cheese
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Mac Daddy Burger</span>
+              <span class="price">12.75</span>
+              <p>
+                Fresh ground beef patty topped with bacon, caramelized onions, blue cheese, and sautéed mushrooms
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+          </div>
+          <!-- end tab_content -->
+
+          <div id="dolci" class="tab_content" style="display: none;">
+            <h3>Dolci</h3>
+            <div class="item">
+              <span class="entry">Holy Cannoli</span>
+              <span class="price">4.25</span>
+              <p>The world's most famous Cannoli</p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Holy Chocolate Cannoli</span>
+              <span class="price">4.95</span>
+              <p>Hand dipped in dark belgian chocolate</p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Chownie</span>
+              <span class="price">4.95</span>
+              <p>Homemade Chocolate Chip Cookie Brownie</p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Fudge Brownies</span>
+              <span class="price">4.25</span>
+              <p>
+                Chef Ernest Lepore's chock full of chocolate homemade special recipe with walnuts
+              </p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">New York Cheesecake</span>
+              <span class="price">Slice 3.95 / Cake 39.50</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Gluten-Free Brownie</span>
+              <span class="price">4.50</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Chocolate Truffle Cake</span>
+              <span class="price">Slice 3.95 / Cake 39.50</span>
+              <p>Death by chocolate</p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Tiramisu</span>
+              <span class="price">Slice 4.95</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Chocolate Chip Cannoli Cream Sandwich</span>
+              <span class="price">5.95</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Huge Homemade Chocolate Chip Cookies</span>
+              <span class="price">2.25</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Mini Brownies</span>
+              <span class="price">1.95</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Mini Cannoli</span>
+              <span class="price">1.75</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Mini Chocolate Cannoli</span>
+              <span class="price">1.95</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+          </div>
+
+          <div id="drinks" class="tab_content" style="display: none;">
+            <h3>Wines</h3>
+            <div class="item">
+              <span class="entry">House Red or Wine</span>
+              <span class="price">Glass 5.00 / Bottle 20.00</span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <h3>Beer</h3>
+            <div class="item">
+              <span class="entry">Birra Moretti</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Peroni</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Amstel Light</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Pabst Blue Ribbon</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Seasonal Craft Brew</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <h3>Soda</h3>
+            <div class="item">
+              <span class="entry">Coke</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Diet Coke</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Cherry Coke</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Root Beer</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">Sprite</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+            <div class="item">
+              <span class="entry">S. Pellegrino</span>
+              <span class="price"></span>
+              <p></p>
+              <div class="itemdivider"></div>
+            </div>
+          </div>
+          <!-- end tab_content --> </div>
+        <!--END OF COL--> </div>
+      <!--END OF ROW--> </div>
+    <!-- END OF WRAPPER--> </div>
+  <!-- END OF CONTENT-->
+
+  <!-- START OF FOOTER -->
+  <footer>
+    <div class="footer">
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-lg-4">
+            <h5>CONTACT</h5>
+            2400-D Main Street
+            <br>
+            Santa Monica, CA 90405
+            <br>
+            T: (310) 392-7466
+            <br>F: (310) 392-5586</div>
+
+          <div class="col-lg-4">
+            <h5>GET SOCIAL</h5>
+            <a href="https://www.facebook.com/pages/Bravissimopizzeria/567542043304300" target="_blank">
+              <img src="assets/facebook.png" style="height: 40px; width: 40px;"></a>
+            <a href="https://twitter.com/Bravissimos" target="_blank">
+              <img src="assets/twitter.png" style="height: 40px; width: 40px;"></a>
+            <a href="http://www.yelp.com/biz/bravissimo-caf%C3%A9-and-pizzeria-santa-monica?nb=1">
+              <img src="assets/yelp.png" style="height: 40px; width: 40px;"></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="divider col-lg-12"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8 centered">
+            <span class="verbiage">
+              THE
+              <img src="assets/ferraramono.png" style="margin-top: -10px"/>
+              TRADITION CONTINUES...
+            </span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="divider col-lg-12"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5">
+            <span>&copy; 2013 Bravissimo Pizzeria. All Rights Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
+</div>
+
+<!-- JavaScript plugins (requires jQuery) -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+</body>
+</html>
