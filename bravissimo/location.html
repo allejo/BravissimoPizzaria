@@ -8,6 +8,16 @@
         <link href="css/custom.css" rel="stylesheet">
         <link href="css/jquery.bxslider.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+        <script>
+            (function(d, s, id) {
+                var js, dt = new Date().getTime(), jst = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = '/web/20140517004159/https://facebook.chownow.com/static/js/iframe.js?'+dt+'#cid=787';
+                jst.parentNode.insertBefore(js, jst);
+            }(document, 'script', 'chownow-js'));
+        </script>
     </head>
 
     <body>
@@ -26,7 +36,7 @@
                     <ul class="nav nav-pills pull-right">
                         <li><a href="menu.html">MENU</a></li>
                         <li><a href="catering.html">CATERING</a></li>
-                        <li><a href="location.html#">ORDER</a></li>
+                        <li><a id="chownow-order-online" href="#">ORDER</a></li>
                     </ul>
                 </div>
             </div> <!-- END OF HEADER -->
